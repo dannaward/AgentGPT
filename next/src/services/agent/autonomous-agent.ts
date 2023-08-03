@@ -5,7 +5,7 @@ import type { AgentRunModel } from "./agent-run-model";
 import type AgentWork from "./agent-work/agent-work";
 import AnalyzeTaskWork from "./agent-work/analyze-task-work";
 import ChatWork from "./agent-work/chat-work";
-import StartGoalWork from "./agent-work/start-task-work";
+import StartGoalWork from "./agent-work/start-goal-work";
 import SummarizeWork from "./agent-work/summarize-work";
 import type { MessageService } from "./message-service";
 import { useAgentStore } from "../../stores";
